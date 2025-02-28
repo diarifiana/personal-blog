@@ -10,17 +10,20 @@ import {
 
 const PaginationHero = () => {
   return (
-    <div>
+    <div className="text-[#DB0002]">
       <Pagination>
         <PaginationContent>
           <PaginationItem>
             <PaginationPrevious href="#" />
           </PaginationItem>
           <PaginationItem>
-            <PaginationLink href="#">1</PaginationLink>
+            <PaginationLink href="#">⚬</PaginationLink>
           </PaginationItem>
           <PaginationItem>
-            <PaginationEllipsis />
+            <PaginationLink href="#">⚬</PaginationLink>
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationLink href="#">⚬</PaginationLink>
           </PaginationItem>
           <PaginationItem>
             <PaginationNext href="#" />
